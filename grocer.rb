@@ -47,6 +47,9 @@ def apply_coupons(cart, coupons)
       end
     elsif item
       cart << {
+        :item
+        :price
+        
         
       }
         
