@@ -79,7 +79,7 @@ def checkout(cart, coupons)
   final_price = 0
   
   final.each{|element|
-    
+    final_price += 
   }
   
   # Consult README for inputs and outputs
