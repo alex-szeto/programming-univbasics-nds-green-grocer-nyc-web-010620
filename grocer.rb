@@ -40,6 +40,7 @@ def apply_coupons(cart, coupons)
     item = find_item_by_name_in_collection(element, cart)
     discount = find_item_by_name_in_collection(element + "W/COUPON", cart)
   }
+  
   return cart
 end
 
