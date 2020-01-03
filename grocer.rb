@@ -36,8 +36,8 @@ def apply_coupons(cart, coupons)
   #
   # REMEMBER: This method **should** update cart
   coupons.each{ |element|
-    item = coupon[:item]
-    if item
+    element = coupon[:item]
+    item = 
   }
   return cart
 end
