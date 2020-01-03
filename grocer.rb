@@ -79,8 +79,9 @@ def checkout(cart, coupons)
   final_price = 0
   
   final.each{|element|
-    final_price += 
+    final_price += (element[:price] * element[:count])
   }
+  
   
   # Consult README for inputs and outputs
   #
