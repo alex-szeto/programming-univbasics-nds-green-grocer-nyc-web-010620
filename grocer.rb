@@ -38,7 +38,7 @@ def apply_coupons(cart, coupons)
   coupons.each{ |element|
     element = coupon[:item]
     item = find_item_by_name_in_collection(element, cart)
-    
+    discount = find_item_by_name_in_collection(element + "W/COUPON", cart)
   }
   return cart
 end
