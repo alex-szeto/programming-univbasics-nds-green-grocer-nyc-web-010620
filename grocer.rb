@@ -53,8 +53,6 @@ def apply_coupons(cart, coupons)
         :count => coupon[:num]
       }
     end
-    
-    
   }
   
   return cart
