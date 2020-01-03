@@ -76,7 +76,11 @@ def checkout(cart, coupons)
   discount = apply_coupons(unique_items, coupons)
   final = apply_clearance(discount)
   
+  final_price = 0
   
+  final.each{|element|
+    
+  }
   
   # Consult README for inputs and outputs
   #
