@@ -73,7 +73,7 @@ end
 
 def checkout(cart, coupons)
   unique_items = consolidate_cart(cart)
-  discount =  
+  discount = apply_coupons() 
   # Consult README for inputs and outputs
   #
   # This method should call
