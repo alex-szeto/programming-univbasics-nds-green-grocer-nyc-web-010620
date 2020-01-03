@@ -38,7 +38,7 @@ def apply_coupons(cart, coupons)
   coupons.each{ |element|
     
   }
-  return 
+  return cart
 end
 
 def apply_clearance(cart)
