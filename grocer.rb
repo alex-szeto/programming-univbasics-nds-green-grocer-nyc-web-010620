@@ -74,7 +74,10 @@ end
 def checkout(cart, coupons)
   unique_items = consolidate_cart(cart)
   discount = apply_coupons(unique_items, coupons)
-  final = apply_clearance()
+  final = apply_clearance(discount)
+  
+  
+  
   # Consult README for inputs and outputs
   #
   # This method should call
@@ -84,6 +87,8 @@ def checkout(cart, coupons)
   #
   # BEFORE it begins the work of calculating the total (or else you might have
   # some irritated customers
+  
+  
   
   
   
