@@ -48,8 +48,8 @@ def apply_coupons(cart, coupons)
     elsif item
       cart << {
         :item => coupon[:item] + "W/COUPON",
-        :price => coupon[:cost]/coupon[:num]
-        :clearance => item[:clearance]
+        :price => coupon[:cost]/coupon[:num],
+        :clearance => item[:clearance],
         :count => coupon[:num]
       }
     end
