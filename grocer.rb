@@ -40,7 +40,8 @@ def apply_coupons(cart, coupons)
     item = find_item_by_name_in_collection(element, cart)
     discount = find_item_by_name_in_collection(element + "W/COUPON", cart)
     
-    if discount != nil && item_info
+    if discount != nil
+      
     
     
   }
