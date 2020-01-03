@@ -43,7 +43,7 @@ def apply_coupons(cart, coupons)
     if discount != nil
       if item[:count] >= coupon[:num]
         item[:count] -= coupon[:num]
-        discount[:count] += coupon[:count]
+        discount[:count] += coupon[:num]
       end
     end
     
