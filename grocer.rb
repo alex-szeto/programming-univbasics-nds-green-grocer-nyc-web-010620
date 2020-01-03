@@ -82,7 +82,10 @@ def checkout(cart, coupons)
     final_price += (element[:price] * element[:count])
   }
   
-  
+  if final_price > 100
+    return final_price * 0.9
+  end
+  return final_price
   # Consult README for inputs and outputs
   #
   # This method should call
